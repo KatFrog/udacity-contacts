@@ -9,35 +9,11 @@ class App extends Component {
     state = {
         contacts: [
             {
-            "id": "jim",
-            "name": "My Mutant Husband",
-            "email": "jimp@wegrok.net",
-            "avatarURL": "icons/jim2.jpg"
+            "id": "test",
+            "name": "My Test Person",
+            "email": "anyone@gmail.com",
+            "avatarURL": "icons/person.svg"
             },
-            {
-            "id": "terry",
-            "name": "Portal Pirate",
-            "email": "terryp@wegrok.net",
-            "avatarURL": "icons/terry.jpg"
-            },
-            {
-            "id": "rachel",
-            "name": "Inez Blue Butterfly",
-            "email": "rachelp@wegrok.net",
-            "avatarURL": "icons/rachel.jpg"
-            },
-            {
-            "id": "titan",
-            "name": "My Dog",
-            "email": "titan@wegrok.net",
-            "avatarURL": "icons/titan.jpg"
-            },
-            {
-              "id": "liz",
-              "name": "Sister",
-              "email": "noone@wegrok.net",
-              "avatarURL": "icons/person.svg"
-            }
         ]
     }
 
